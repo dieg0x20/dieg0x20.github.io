@@ -13,11 +13,11 @@ Esta página foi criada para ajudar você a encontrar cursos gratuitos e de qual
 
 ## Como Contribuir
 
-Se você conhece um curso gratuito de qualidade no YouTube que não está listado, ficaremos felizes em adicioná-lo! Entre em contato conosco através do e-mail: [contato@cursosgratisyoutube.com](diego444x@gmail.com) com o link do curso e uma breve descrição.
+Se você conhece um curso gratuito de qualidade no YouTube que não está listado, ficaremos felizes em adicioná-lo! Entre em contato conosco através do e-mail: [diego444x@gmail.com](diego444x@gmail.com) com o link do curso e uma breve descrição.
 
 ## Contato
 
-- **E-mail**: [contato@cursosgratisyoutube.com](diego444x@gmail.com)
+- **E-mail**: [diego444x@gmail.com](diego444x@gmail.com)
 
 ## Licença
 
