@@ -30,10 +30,10 @@ const dados = [
         "categoria": "Java"
     },
     {
-        "nome": "Curso de POO Java",
-        "descricao": "Curso de POO Java",
-        "link": "https://youtube.com/playlist?list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY&si=DsJqnlPIeLEb7uc5",
-        "categoria": "Java"
+        "nome": "Estruturas de dados em C",
+        "descricao": "Estruturas de dados em C",
+        "link": "https://youtube.com/playlist?list=PLqJK4Oyr5WSjQ584hwqaHJYDpDcYqS-HK&si=YywLZB6fZSRuHV7G",
+        "categoria": "C"
     }
 ]
 
@@ -51,6 +51,29 @@ function fetchData() {
         `;
     });
 }
+function filters() {
+    const inputElement = document.getElementById('input');
+    const text = inputElement.value.trim(); 
 
+    res.innerHTML = ''; 
+
+    const filteredData = dados.filter(d => d.categoria.toLowerCase() === text.toLowerCase());
+
+    if (filteredData.length === 0) {
+        res.innerHTML = '<p>Nenhum curso encontrado para a categoria fornecida.</p>';
+    } else {
+        filteredData.forEach(d => {
+            res.innerHTML += `
+                <article class="course">
+                    <h2>${d.nome}</h2>
+                    <p>${d.descricao}</p>
+                    <p>${d.categoria}</p>
+                    <a href="${d.link}" target="_blank">Assistir Curso</a>
+                </article>
+            `;
+        });
+    }  
+    inputElement.value = '';
+}
 fetchData();
   
