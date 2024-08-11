@@ -1,6 +1,6 @@
 # LowSec
 
-Bem-vindo à nossa página dedicada a compartilhar conteudo gratuito de programção e tecnologia! Aqui você encontrará uma seleção de curso sobre programaçao e TI, todos disponíveis gratuitamente no YouTube.
+Bem-vindo, página dedicada a compartilhar conteudo gratuito de programção e tecnologia! Aqui você encontrará uma seleção de curso sobre programaçao e TI, todos disponíveis gratuitamente no YouTube.
 
 ## O que é esta página?
 
