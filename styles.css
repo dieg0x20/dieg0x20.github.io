@@ -17,6 +17,9 @@ body {
     color: white;
     font-size: 24px;
 }
+img{
+  width: 70px;
+}
 
 .toggle-menu {
     display: none;
@@ -147,6 +150,10 @@ header p {
     .course {
         width: 100%;
     }
+        
+    img{
+      width: 50px;
+    }
     .nav-list {
         display: none;
         flex-direction: column;
@@ -170,4 +177,3 @@ header p {
         display: block;
     }
 }
-
