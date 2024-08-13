@@ -43,6 +43,7 @@ function filterBooks() {
                     <p>${d.descricao}</p>
                     <p>${d.categoria}</p>
                     <a href="${d.link}" target="_blank">Leia</a>
+                    <br>
                     <a href="${d.url}" download>Download</a>
                 </article>
             `;
