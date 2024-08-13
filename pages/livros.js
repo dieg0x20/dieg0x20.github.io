@@ -19,7 +19,6 @@ function displayBooks() {
                 <h2>${d.nome}</h2>
                 <p>${d.descricao}</p>
                 <p>${d.categoria}</p>
-                <a href="${d.link}" target="_blank">Leia</a>
                 <a href="${d.url}" download>Download</a>
             </article>
         `;
