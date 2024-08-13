@@ -3,7 +3,7 @@ const livros = [
         "nome": "CCódigo Limpo: Habilidades Práticas do Agile Software",
         "descricao": "Edição padrão, 8 setembro 2009",
         "link": "https://www.amazon.com.br/C%C3%B3digo-limpo-Robert-C-Martin/dp/8576082675",
-        "url": "../assets/Codigo Limpo - Completo PT.pdf"
+        "url": "../assets/Codigo Limpo - Completo PT.pdf",
         "categoria": "C"
     }
 ]
