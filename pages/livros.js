@@ -1,6 +1,6 @@
 const livros = [
     {
-        "nome": "CCódigo Limpo: Habilidades Práticas do Agile Software",
+        "nome": "Código Limpo: Habilidades Práticas do Agile Software",
         "descricao": "Edição padrão, 8 setembro 2009",
         "link": "https://www.amazon.com.br/C%C3%B3digo-limpo-Robert-C-Martin/dp/8576082675",
         "url": "../assets/Codigo Limpo - Completo PT.pdf",
@@ -28,12 +28,12 @@ function filters() {
 
     res.innerHTML = ''; 
 
-    const filteredData = livros.filter(d => d.categoria.toLowerCase() === text.toLowerCase());
+    const filter = livros.filter(d => d.categoria.toLowerCase() === text.toLowerCase());
 
-    if (filteredData.length === 0) {
+    if (filter.length === 0) {
         res.innerHTML = '<p>Nenhum curso encontrado para a categoria fornecida.</p>';
     } else {
-        filteredData.forEach(d => {
+        filter.forEach(d => {
             res.innerHTML += `
                 <article class="course">
                     <h2>${d.nome}</h2>
