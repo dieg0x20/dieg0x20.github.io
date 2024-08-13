@@ -1,5 +1,11 @@
 const dados = [
     {
+        "nome": "Imediatismo + Insegurança + Síndrome do Impostor - Você está PRONTO(A)?",
+        "descricao": "Uma conversa sobre carreira em TI do canal guia anonima",
+        "link": "https://youtu.be/tOTmwBxP5p0?si=SO7q-QHaWHAVeE7X",
+        "categoria": "Carreira"
+    },
+    {
         "nome": "Curso de Redes de Computadores",
         "descricao": "Curso de Redes de Computadores",
         "link": "https://youtube.com/playlist?list=PLucm8g_ezqNpGh95n-OdEk06ity7YYfvU&si=XA34YbMw0GdFo3zR",
