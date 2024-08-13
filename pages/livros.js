@@ -6,45 +6,52 @@ const livros = [
         "url": "../assets/Codigo Limpo - Completo PT.pdf",
         "categoria": "C"
     }
-]
+];
 
-const res = document.getElementById('livros')
-function fetch() {
+const res = document.getElementById('livros');
+const inputElement = document.getElementById('input');
+
+function displayBooks() {
+    res.innerHTML = '';
     livros.forEach(d => {
         res.innerHTML += `
             <article class="course">
                 <h2>${d.nome}</h2>
                 <p>${d.descricao}</p>
                 <p>${d.categoria}</p>
-                <a href="${d.link}" target="_blank">Assistir Curso</a>
+                <a href="${d.link}" target="_blank">Leia</a>
+                <a href="${d.url}" download>Download</a>
             </article>
         `;
     });
 }
-function filtersLivro() {
-    const inputElement = document.getElementById('input');
+
+function filterBooks() {
     const text = inputElement.value.trim(); 
 
     res.innerHTML = ''; 
 
-    const filter = livros.filter(d => d.categoria.toLowerCase() === text.toLowerCase());
+    const filteredBooks = livros.filter(d => d.categoria.toLowerCase() === text.toLowerCase());
 
-    if (filter.length === 0) {
-        res.innerHTML = '<p>Nenhum curso encontrado para a categoria fornecida.</p>';
+    if (filteredBooks.length === 0) {
+        res.innerHTML = '<p>Nenhum livro encontrado para a categoria fornecida.</p>';
     } else {
-        filter.forEach(d => {
+        filteredBooks.forEach(d => {
             res.innerHTML += `
                 <article class="course">
                     <h2>${d.nome}</h2>
                     <p>${d.descricao}</p>
                     <p>${d.categoria}</p>
                     <a href="${d.link}" target="_blank">Leia</a>
-                    <a href="${d.url}" download>Dowload</a>
+                    <a href="${d.url}" download>Download</a>
                 </article>
             `;
         });
     }  
+
     inputElement.value = '';
 }
-fetch();
-  
+
+displayBooks();
+
+
