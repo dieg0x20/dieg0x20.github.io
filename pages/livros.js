@@ -11,7 +11,7 @@ const livros = [
 const res = document.getElementById('livros')
 function fetchData() {
     // Usando forEach em vez de map para modificar o DOM
-    dados.forEach(d => {
+    livros.forEach(d => {
         res.innerHTML += `
             <article class="course">
                 <h2>${d.nome}</h2>
