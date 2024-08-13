@@ -8,7 +8,7 @@ const dados = [
     }
 ]
 
-const res = document.getElementById('courses')
+const res = document.getElementById('livros')
 function fetchData() {
     // Usando forEach em vez de map para modificar o DOM
     dados.forEach(d => {
