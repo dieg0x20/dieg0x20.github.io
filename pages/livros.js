@@ -10,7 +10,6 @@ const livros = [
 
 const res = document.getElementById('livros')
 function fetch() {
-    // Usando forEach em vez de map para modificar o DOM
     livros.forEach(d => {
         res.innerHTML += `
             <article class="course">
@@ -22,7 +21,7 @@ function fetch() {
         `;
     });
 }
-function filters() {
+function filtersLivro() {
     const inputElement = document.getElementById('input');
     const text = inputElement.value.trim(); 
 
