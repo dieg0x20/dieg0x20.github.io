@@ -1,4 +1,4 @@
-const dados = [
+const livros = [
     {
         "nome": "CCódigo Limpo: Habilidades Práticas do Agile Software",
         "descricao": "Edição padrão, 8 setembro 2009",
@@ -28,7 +28,7 @@ function filters() {
 
     res.innerHTML = ''; 
 
-    const filteredData = dados.filter(d => d.categoria.toLowerCase() === text.toLowerCase());
+    const filteredData = livros.filter(d => d.categoria.toLowerCase() === text.toLowerCase());
 
     if (filteredData.length === 0) {
         res.innerHTML = '<p>Nenhum curso encontrado para a categoria fornecida.</p>';
