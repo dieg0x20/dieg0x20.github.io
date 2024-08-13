@@ -9,7 +9,7 @@ const livros = [
 ]
 
 const res = document.getElementById('livros')
-function fetchData() {
+function fetch() {
     // Usando forEach em vez de map para modificar o DOM
     livros.forEach(d => {
         res.innerHTML += `
@@ -47,5 +47,5 @@ function filters() {
     }  
     inputElement.value = '';
 }
-fetchData();
+fetch();
   
