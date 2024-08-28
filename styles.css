@@ -5,22 +5,72 @@ body {
     background-color: #121212; 
     color: #e0e0e0;
 }
+
+.social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #121212;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 18px; 
+}
+
+.social-link:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.bi-instagram {
+    color: #fff;
+}
+
+.bi-envelope {
+    color: #fff;
+}
+
+.bi-github {
+    color: #fff;
+}
+
+.bi-linkedin {
+    color: #fff;
+}
 .navbar {
     background-color: #121212;
     padding: 10px 20px;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: space-between;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;    
+    height: 70vh;          
 }
 
-.logo {
-    color: white;
-    font-size: 24px;
-}
-img{
-  width: 70px;
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
 }
 
+.profile img{
+    width: 200px;
+    border-radius: 50%;
+}
 .toggle-menu {
     display: none;
     background: none;
@@ -49,111 +99,9 @@ img{
 .nav-list a:hover {
     color: #f4a261;
 }
-.container {
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-/* Container para o campo de filtros */
-.filter-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin: 15px;
-    border-radius: 5px;
-  }
-  
-  /* Estilo para o campo de entrada de texto */
-  .filter-input {
-    display: flex;
-    width: calc(40% - 20px);
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Estilo para o botão de filtro */
-  .filter-button {
-    padding: 8px 12px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #007bff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  /* Estilo para o botão de filtro ao passar o mouse */
-  .filter-button:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Estilo para o botão de filtro ao ser pressionado */
-  .filter-button:active {
-    background-color: #004085;
-  }
-  
-header {
-    text-align: center;
-    margin-bottom: 20px;
-}
 
-header h1 {
-    color: #ffffff; 
-}
-
-header p {
-    color: #b0b0b0; 
-}
-
-.courses {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.course {
-    background-color: #1e1e1e; 
-    border: 1px solid #333; 
-    border-radius: 5px;
-    padding: 20px;
-    width: calc(40% - 20px);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
-}
-
-.course h2 {
-    margin-top: 0;
-    color: #ffffff; 
-}
-
-.course p {
-    color: #e0e0e0; 
-}
-
-.course a {
-    display: inline-block;
-    margin-top: 10px;
-    color: #1e90ff; 
-    text-decoration: none;
-}
-
-.course a:hover {
-    text-decoration: underline;
-}
 
 @media (max-width: 768px) {
-    .course {
-        width: 100%;
-    }
-        
-    img{
-      width: 50px;
-    }
     .nav-list {
         display: none;
         flex-direction: column;
