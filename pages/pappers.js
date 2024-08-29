@@ -3,7 +3,14 @@ const dados = [{
     "nome": "Maratona 2024",
     "des": "Material de estudos para maratona SBC 2024",
     "file": "../assets/Maratona de programação 2024.pdf"
-}];
+},
+{
+    "id": 2,
+    "nome": "Relatorio de pesquisa sobre Remote Code Execution(RCE)",
+    "des": "Relatorio de pesquisa",
+    "file": "../assets/Relatorio de pesquisa sobre Remote Code Execution(RCE).pdf"
+}
+];
 
 const res = document.getElementById("container");
 
