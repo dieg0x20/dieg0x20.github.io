@@ -6,8 +6,8 @@ const dados = [{
 },
 {
     "id": 2,
-    "nome": "Relatorio de pesquisa sobre Remote Code Execution(RCE)",
-    "des": "Relatorio de pesquisa",
+    "nome": "Remote Code Execution(RCE)",
+    "des": "Relatorio de pesquisa sobre RCE",
     "file": "../assets/Relatorio de pesquisa sobre Remote Code Execution(RCE).pdf"
 }
 ];
