@@ -45,13 +45,6 @@ body {
 .bi-linkedin {
     color: #fff;
 }
-.navbar {
-    background-color: #121212;
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 .container {
     display: flex;
     flex-direction: column;
@@ -70,6 +63,13 @@ body {
 .profile img{
     width: 200px;
     border-radius: 50%;
+}
+.navbar {
+    background-color: #121212;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .toggle-menu {
     display: none;
