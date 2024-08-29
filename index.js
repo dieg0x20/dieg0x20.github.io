@@ -7,6 +7,7 @@ fetch(url)
         res.innerHTML += `
             <img src="${data.avatar_url}" alt="avatar">
             <h1>Diego_dev</h1>
+            <span>Desenvolvedor Backend</span>
         `;
     })
     .catch(error => console.error('Error fetching data:', error));
