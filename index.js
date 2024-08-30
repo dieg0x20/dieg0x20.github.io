@@ -29,7 +29,7 @@ const dados = [{
 const resPDF = document.getElementById("container");
 
 function abrirPdf(fileUrl) {
-    window.location.href = `./pages/pdf-viewer.html?file=${encodeURIComponent(fileUrl)}`;
+    window.location.href = `pdf-viewer.html?file=${encodeURIComponent(fileUrl)}`;
 }
 
 dados.forEach(data => {
