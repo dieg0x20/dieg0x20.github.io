@@ -122,7 +122,32 @@ body {
     border-radius: 10px;
     border: 1px solid rgb(40, 40, 45);
 }
-
+.sobre {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+  height: 60vh;
+  gap: 10px;
+}
+.about{
+  width: 40%;
+  border: solid 1px #fff;
+  border-radius: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.codes{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
 @media (max-width: 768px) {
     .card {
      width: 60%;
@@ -149,5 +174,9 @@ body {
 
     .toggle-menu {
         display: block;
+    }
+    
+    .about{
+      width: 80%;
     }
 }
