@@ -1,0 +1,90 @@
+body {
+
+  background-image: url('https://wallpapers.com/images/hd/4k-universe-neighbouring-planet-ll7ntjs9ayohfql1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 99vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f0f0f;
+  color: #CED2D2;
+  font-family: Courier, monospace;
+  font-size: 20px;
+
+}
+
+a {
+
+  color: #CED2D2;
+  text-decoration: none;
+
+}
+
+a:hover {
+
+  color: #CED2D2;
+  text-decoration: none;
+
+}
+
+a:active {
+
+  color: #CED2D2;
+
+}
+
+.terminal {
+  display: flex;
+  max-width: 900px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  background-color: #1e1e1ed9;
+  backdrop-filter: blur(10px);
+  line-height: 0.5;
+}
+
+.title {
+  color: #4682B4;
+  font-weight: bold;
+}
+
+.label {
+  color: #4682B4;
+}
+
+.logo {
+  color: #4682B4;
+  white-space: pre;
+  margin-right: 50px;
+  float: left;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.values {
+
+  margin-right: 30px;
+
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+  height: 60vh;
+  gap: 10px;
+}
+
+.card {
+  cursor: pointer;
+  position: relative;
+  padding: 0 20px;
+  width: 60%;
+  background: rgb(40, 40, 45);
+  border-radius: 10px;
+  border: 1px solid rgb(40, 40, 45);
+}
