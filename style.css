@@ -1,5 +1,4 @@
 body {
-
   background-image: url('https://wallpapers.com/images/hd/4k-universe-neighbouring-planet-ll7ntjs9ayohfql1.jpg');
   background-size: cover;
   background-position: center;
@@ -83,8 +82,20 @@ a:active {
   cursor: pointer;
   position: relative;
   padding: 0 20px;
-  width: 60%;
+  width: 0%;
   background: rgb(40, 40, 45);
   border-radius: 10px;
   border: 1px solid rgb(40, 40, 45);
+}
+
+@media (max-width: 500px) {
+  .logo{
+   display: none;
+  }
+  .title {
+    font-size: 1.25rem;
+  }
+  .terminal{
+    padding: 10px;
+  }
 }
