@@ -1,4 +1,4 @@
-body {
+.home {
   background-image: url('https://wallpapers.com/images/hd/4k-universe-neighbouring-planet-ll7ntjs9ayohfql1.jpg');
   background-size: cover;
   background-position: center;
@@ -37,6 +37,7 @@ a:active {
 .terminal {
   display: flex;
   max-width: 900px;
+  max-height: 300px;
   border: 2px solid gray;
   border-radius: 10px;
   background-color: #1e1e1ed9;
@@ -63,8 +64,7 @@ a:active {
 }
 
 .values {
-
-  margin-right: 30px;
+ padding: 15px;
 
 }
 
@@ -78,7 +78,7 @@ a:active {
   gap: 10px;
 }
 
-.card {
+.cardPaper {
   cursor: pointer;
   position: relative;
   padding: 0 20px;

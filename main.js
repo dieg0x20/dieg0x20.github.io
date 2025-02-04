@@ -19,7 +19,7 @@ function abrirPdf(fileUrl) {
 
 dados.forEach(data => {
   resPDF.innerHTML += `
-    <div class="card" onclick="abrirPdf('${data.file}')">
+    <div class="cardPaper" onclick="abrirPdf('${data.file}')">
         <h1>${data.nome}</h1>
         <p>${data.des}</p>
     </div>
