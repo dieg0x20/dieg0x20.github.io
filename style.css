@@ -1,5 +1,5 @@
 body {
-  font-size: 20px;
+  font-size: 18px;
   display: flex;
   flex-direction: column;
   font-family: "Courier New", monospace;
@@ -26,9 +26,9 @@ body {
 
 .sidebar a {
   color: #00ff00;
-  padding: 10px;
+  padding: 8px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .sidebar a:hover {
