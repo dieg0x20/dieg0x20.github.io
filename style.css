@@ -1,101 +1,73 @@
-.home {
-  background-image: url('https://wallpapers.com/images/hd/4k-universe-neighbouring-planet-ll7ntjs9ayohfql1.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 99vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #0f0f0f;
-  color: #CED2D2;
-  font-family: Courier, monospace;
+body {
   font-size: 20px;
-
-}
-
-a {
-
-  color: #CED2D2;
-  text-decoration: none;
-
-}
-
-a:hover {
-
-  color: #CED2D2;
-  text-decoration: none;
-
-}
-
-a:active {
-
-  color: #CED2D2;
-
-}
-
-.terminal {
   display: flex;
-  max-width: 900px;
-  max-height: 300px;
-  border: 2px solid gray;
-  border-radius: 10px;
-  background-color: #1e1e1ed9;
-  backdrop-filter: blur(10px);
-  line-height: 0.5;
+  flex-direction: column;
+  font-family: "Courier New", monospace;
+  margin: 0;
+  background-color: #000;
+  color: #00ff00;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.sidebar {
+  width: 100%;
+  height: auto;
+  background-color: #111;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom: 2px solid #00ff00;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.sidebar a {
+  color: #00ff00;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.sidebar a:hover {
+  background-color: #222;
+}
+
+.content {
+  margin-top: 70px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: c;
+  max-width: 800px; 
 }
 
 .title {
-  color: #4682B4;
+  font-size: 24px;
   font-weight: bold;
+  border-bottom: 2px solid #00ff00;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
-.label {
-  color: #4682B4;
+.avatar {
+  width: 200px;
 }
 
-.logo {
-  color: #4682B4;
-  white-space: pre;
-  margin-right: 50px;
-  float: left;
-  font-size: 20px;
-  line-height: 1.2;
-}
-
-.values {
- padding: 15px;
-
-}
-
-.container2 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: start;
-  height: 60vh;
-  gap: 10px;
-}
-
-.cardPaper {
+.btn1 {
+  padding: 18px;
+  font-size: 15px;
   cursor: pointer;
-  position: relative;
-  padding: 0 20px;
-  width: 53%;
-  background: rgb(40, 40, 45);
-  border-radius: 10px;
-  border: 1px solid rgb(40, 40, 45);
+  margin-bottom: 10px;
+  color: #00ff00;
+  background-color: #000;
+  border-color: #00ff00;
 }
 
-@media (max-width: 600px) {
-  .logo{
-   display: none;
-  }
-  .title {
-    font-size: 1.25rem;
-  }
-  .terminal{
-    padding: 10px;
-  }
+a {
+  font-size: 18px;
+  color: #00ff00;
 }
