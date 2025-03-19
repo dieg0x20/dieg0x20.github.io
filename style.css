@@ -40,8 +40,8 @@ body {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center; 
-  max-width: 700px; 
+  align-items: center;
+  max-width: 700px;
 }
 
 .title {
@@ -70,3 +70,59 @@ a {
   font-size: 18px;
   color: #00ff00;
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  .content {
+    margin-top: 60px;
+    padding: 15px;
+    width: 90%;
+    max-width: 500px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .avatar {
+    width: 150px;
+  }
+
+  .sidebar a {
+    font-size: 15px;
+    padding: 6px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    font-size: 20px;
+  }
+
+  .content {
+    width: 95%;
+    max-width: 700px;
+  }
+
+  .avatar {
+    width: 180px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  body {
+    font-size: 20px;
+  }
+
+  .content {
+    max-width: 800px;
+  }
+
+  .avatar {
+    width: 220px;
+  }
+}
+
