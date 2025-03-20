@@ -9,22 +9,30 @@ const dados = [
     "id": 2,
     "nome": "Manual de Vim para iniciantes",
     "file": "/assets/vim_by_diego.pdf"
+  },
+  {
+    "id": 3,
+    "nome": "Basico de Ruby para iniciantes",
+    "file": "../assets/ruby.md"
   }
 ];
 
 const resPDF = document.getElementById("container");
 
-function abrirPdf(fileUrl) {
-  window.location.href = `pdf-viewer.html?file=${encodeURIComponent(fileUrl)}`;
+function abrirArquivo(fileUrl) {
+  if (fileUrl.endsWith(".md")) {
+    window.location.href = `markdown-viewer.html?file=${encodeURIComponent(fileUrl)}`;
+  } else if (fileUrl.endsWith(".pdf")) {
+    window.location.href = `pdf-viewer.html?file=${encodeURIComponent(fileUrl)}`;
+  }
 }
 
 if (resPDF) {
   dados.forEach(data => {
     resPDF.innerHTML += `
-      <button class="btn1" onclick="abrirPdf('${encodeURIComponent(data.file)}')">
+      <button class="btn1" onclick="abrirArquivo('${encodeURIComponent(data.file)}')">
         ${data.nome}
       </button>
     `;
   });
 }
-
