@@ -34,6 +34,9 @@ body {
 .sidebar a:hover {
   background-color: #222;
 }
+.border {
+  border: 1px solid;
+}
 .content {
   margin-top: 70px;
   padding: 20px;
