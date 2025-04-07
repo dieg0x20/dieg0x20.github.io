@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documents</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+</head>
+
+<body>
+  <div class="sidebar">
+    <a href="index.html" onclick="loadContent('home')">Home</a>
+    <a href="github.html" onclick="loadContent('github')">Github</a>
+    <a href="contact.html" onclick="loadContent('contact')">Contact</a>
+  </div>
+  <div class="content">
+    <a href="#mandamentos">* 10 mandamentos Linux</a>
+    <a href="#manifesto">* Manifesto Cypherpunk</a>
+  </div>
+  <div class="content" id="mandamentos" style="border-top: solid;">
+    <h1>10 mandamentos Linux</h1>
+    <a href="https://www.reddit.com/r/linuxbrasil/comments/1jtjppl/10_mandamentos_linux_velho_testamento/">Post Original Reddit</a>
+    
+    <p>E Tux, o pinguim sagrado, desceu da Montanha do Kernel trazendo consigo tábuas de código-fonte gravadas pelo próprio Torvalds. E assim falou aos seus seguidores:</p>
+    
+    <p>I. Não Terás Outros Sistemas Antes de Mim Pois Windows é apenas uma janela, mas Linux é um portal para a liberdade. (Mas podes manter um dual boot para jogos, não julgarei tua fraqueza).
+    </p>
+    <p>II. Não Farás Para Ti Backups Falsos Backup frequente farás, ou teus arquivos lamentarás. O que não está em três lugares diferentes não existe.
+    </p>
+    <p>III. Não Tomarás o Nome do Root em Vão Pois com grandes privilégios vêm grandes responsabilidades. Um "sudo rm -rf /" casual pode transformar teu sistema em pó.
+    </p>
+    <p>IV. Lembra-te do Dia do Update para o Santificar Seis dias trabalharás e farás todo o teu código, mas o sétimo dedicarás para atualizar teus pacotes e ler as mensagens do kernel.
+    </p>
+    <p>V. Honra tua Documentação e teus Fóruns Para que teus problemas sejam resolvidos e longos sejam teus dias no terminal.
+    </p>
+    <p>VI. Não Matarás Processos Inocentes Verifica duas vezes antes de executar "kill -9", pois cada processo tem um propósito, mesmo que pareça misterioso.
+    </p>
+    <p>VII. Não Cometerás Reinstalação Quando teu sistema quebrar, conserta-o! Reinstalar é o caminho dos fracos. (Exceto se for Arch, então reinstalar é praticamente um ritual semanal).
+    </p>
+    <p>VIII. Não Furtarás Software Proprietário Código aberto compartilharás, e para projetos que usas contribuirás, nem que seja com um simples relatório de bug.
+    </p>
+    <p>IX. Não Dirás Falso Testemunho Contra o Terminal O problema quase sempre está entre a cadeira e o teclado. Antes de culpar o sistema, quatro vezes verificarás teus comandos.
+    </p>
+    <p>X. Não Cobiçarás a GUI do Teu Próximo Pois a linha de comando é poderosa, e em modo texto está a salvação. Contudo, um DE bonito não é pecado, desde que saibas o que roda por baixo.
+    </p>
+    <p>E os usuários ouviram estes mandamentos e, após compilarem o kernel pela terceira vez sem erros, viram que era bom. E Tux disse: "Que vossos sistemas nunca travem e vossas permissões estejam sempre corretas."
+    </p>
+    <img style="width: 300px;" src="tux.png" alt="" />
+  </div>
+  <div class="content" id="manifesto" style="border-top: solid;">
+    <h1>O Manifesto Cypherpunk</h1>
+    <a href="https://cypherpunks.com.br/documentos/o-manifesto-cypherpunk/#eric-hughes">O Manifesto Cypherpunk</a>
+    <h3>Eric Hughes</h3>
+    <p>9 de março de 1993</p>
+    <p>Privacidade é necessário para uma sociedade aberta na Era da eletrônica. Privacidade não é segredo. Um assunto privado é algo que não queremos que o mundo inteiro saiba, entretanto um assunto secreto é algo que não queremos que ninguém saiba. A privacidade é o poder de se revelar seletivamente para o mundo.</p>
+    <p>
+      Se duas partes tiverem algum tipo de negociação, cada uma delas terá uma lembrança desta interação. Se cada um dos lados envolvidos resolver falar sobre suas memórias deste assunto, como alguém poderia proibir isso? Poderia ser aprovada alguma lei contra isto, porém a liberdade de expressão, muito além da privacidade, é fundamental para uma sociedade aberta; nós procuramos não restringir o discurso de ninguém. Caso muitas pessoas falem ao mesmo tempo em um determinado fórum, cada uma pode falar de maneira igual com todas as outras e agregar juntos conhecimento sobre indivíduos e outros aspectos. O poder das comunicações eletrônicas habilitou o discurso de grupo, e o mesmo não irá desaparecer somente por querermos que assim acontecesse.</p>
+    <p>
+      Como desejamos privacidade, temos que assegurar que cada parte de uma transação tenha conhecimento somente do que é necessário para o funcionamento da mesma. Desde que uma informação possa ser falada, devemos garantir que será revelado o mínimo possível. Na maioria dos casos a identidade pessoal não é relevante. Quando compro uma revista em uma loja com o dinheiro na mão, não há necessidade de saber quem eu sou. Quando realizo uma requisição para meu provedor de e-mail que receba e envie mensagens, meu provedor não precisa saber com quem estou conversando ou o que estou dizendo ou o que outros estão dizendo para mim; meu provedor só precisa saber como entregar minha mensagem ao local correto e quanto isso custará de taxas para mim. Quando minha identidade é revelada pelo mecanismo da transação, não tenho privacidade. Eu não posso aqui me revelar seletivamente; eu devo sempre me revelar.
+    </p>
+    <p>
+      Portanto, a privacidade em uma sociedade aberta requer sistemas de transação anônimos. Até agora, o dinheiro tem sido o principal sistema desse tipo. Um sistema de transação anônima não é um sistema de transação secreta. Um sistema anônimo permite que os indivíduos revelem sua identidade quando desejado e somente quando desejado; esta é a essência da privacidade.</p>
+    <p>
+      A privacidade em uma sociedade aberta também requer criptografia. Se eu disser algo, eu quero que seja escutado somente por quem eu desejo que seja escutado. Se o conteúdo do meu discurso for ouvido pelo mundo, eu não tenho privacidade. A criptografia é o indicador do desejo de privacidade, e a criptografia de forma fraca indica que não há muito desejo pela privacidade. Além disso, para revelar a identidade de um indivíduo com segurança quando o padrão é ser anônimo requere que seja no formato de uma assinatura criptografada.
+    </p>
+    <p>
+      Nós não podemos esperar governos, corporações, ou outras grandes organizações sem rosto nos garanta a privacidade por sua bondade. É vantajoso para eles falar de nós e esperamos que falem. Tentar prevenir o discurso deles é lutar contra as realidades da informação. Informação não deseja apenas ser livre, ela deve ser livre. Informação se expande para preencher o espaço disponível. Informação é a prima mais jovem e forte do Rumor; informação é frágil, tem mais olhos, sabe mais e entende menos que o Rumor.
+    </p>
+    <p>
+      Nós devemos defender nossa própria privacidade se esperamos possuir alguma. Devemos agir juntos para criar sistemas que permitem transações anônimas para tomar o lugar. As pessoas vêm defendendo a sua própria privacidade por séculos com sussurros, escuridão, envelopes, portas fechadas, apertos de mão secretos e mensageiros. As tecnologias do passado não permitiam uma privacidade forte, mas as tecnologias eletrônicas permitem.
+    </p>
+    <p>
+      Nós, os Cypherpunks, somos dedicados a construir sistema anônimos. Nós defendemos nossa própria privacidade com criptografia, com sistemas avançados de e-mail anônimos, com assinaturas digitais, com dinheiro eletrônico.
+    </p>
+    <p>
+      Cypherpunks escrevem códigos. Nós sabemos que alguém deve escrever códigos que garantem a privacidade, e desde que nós não conseguimos a privacidade a menos que façamos isso, nós vamos escrever a privacidade. Nós publicamos o nosso código para nossos parceiros Cypherpunks poderem praticar e atuar com ele. Nosso código é livre para que todos possam fazer uso dele, o mundo todo. Nós não nos importamos muito se você não aprova o código que escrevemos. Nós sabemos que nosso software não pode ser destruído e que um sistema amplamente distribuído não pode ser desativado.
+    </p>
+    <p>
+      Cypherpunks não se importam com regulamentos sobre a criptografia, pois a mesma por si só é um ato privado. O ato de cifrar, de fato, remove a informação do conhecimento público. Mesmo leis sobre a criptografia só chegam longe o bastante da fronteira da nação e seu escopo de atuação e violência. Criptografia irá se espalhar para todo o mundo e com ela as possibilidades de existir sistemas de transações anônimas que a mesma possibilita.
+    </p>
+    <p>
+      Para que a privacidade seja difundida, deve fazer parte de um contrato social. Pessoas devem se unir e criar sistemas para que isso se dê para o bem comum. Privacidade só chega longe o bastante até o ponto de cooperação da sociedade. Nós Cypherpunks procuramos suas questões e preocupações, na esperança de envolvê-lo para buscar uma solução e para que não nos enganemos. Nós não vamos, entretanto, ser movidos para fora do nosso curso porque alguns não concordam com os objetivos.
+    </p>
+    <p>Os Cypherpunks estão engajados ativamente na tarefa de manter as redes seguras para a privacidade. Vamos juntos prosseguir em ritmo acelerado.
+      
+    <p>Para frente.</p>
+    
+    <p>Eric Hughes</p>
+  </div>
+</body>
+
+</html>
