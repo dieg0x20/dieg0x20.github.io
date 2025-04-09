@@ -25,8 +25,23 @@
     <p>Estudante de Ciência da Computação, com foco em cibersegurança, programação de baixo nível e desenvolvimento backend. Estudo PHP, C, Assembly, MySQL e Linux.
     </p>
     <p><a href="documents.html">/* open your source, open your mind */</a></p>
-    <img class="avatar" src="avatar.png" alt="esse_sou_eu" />
+    <p>esse sou eu ⇣</p>
+    <img id="imagem" class="avatar" src="avatar.png" alt="esse_sou_eu" />
   </div>
+  <script type="text/javascript" charset="utf-8">
+    const imagens = [
+      "avatar.png",
+      "eu1.jpeg",
+    ];
+    
+    let indice = 0;
+    const imgElemento = document.getElementById("imagem");
+    
+    setInterval(() => {
+      indice = (indice + 1) % imagens.length;
+      imgElemento.src = imagens[indice];
+    }, 4000);
+  </script>
 </body>
 
 </html>
